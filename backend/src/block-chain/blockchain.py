@@ -18,7 +18,9 @@ class block:
     def hase(self):
         block_encryption = h.sha256()
         block_encryption.update(
-            str(str(self.id)+str(self.timestamp)+str(self.data)+str(self.prevhash)).encode('utf-8'))
+            str(
+                str(self.id) + str(self.timestamp) + str(self.data) +
+                str(self.prevhash)).encode('utf-8'))
         return block_encryption.hexdigest()
 
 
@@ -27,11 +29,17 @@ class BlockChain:
         self.chain = []
 
     def addBlocke(self, data):
-        previousHash = self.chain[len(
-            self.chain)-1]['blockhash'] if len(self.chain) != 0 else ''
+        previousHash = self.chain[len(self.chain) - 1]['blockhash'] if len(
+            self.chain) != 0 else ''
         Block = block(previoushash=previousHash, data=data)
-        self.chain.append({'id': Block.id, 'timestamp': Block.timestamp,
-                          'blockhash': Block.blockhash, 'prevhash': Block.prevhash, 'data': Block.data})
+        self.chain.append({
+            'id': Block.id,
+            'timestamp': Block.timestamp,
+            'blockhash': Block.blockhash,
+            'prevhash': Block.prevhash,
+            'data': Block.data
+        })
+
 
 # code run 👆🏻👆🏻
 # cc = BlockChain()
