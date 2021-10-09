@@ -24,3 +24,9 @@ class ByIDUser(Resource):
 
     def patch(self, id):
         return db.update(id)
+
+
+class voting(Resource):
+    def post(self, id, voting_time):
+        data = request.get_json()
+        return db.addBlock(data, id)

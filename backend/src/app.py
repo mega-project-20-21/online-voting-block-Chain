@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Resource, Api
-from view import Index, ByIDUser
+from view import Index, ByIDUser, voting
 #app config
 app = Flask(__name__)
 
@@ -11,6 +11,7 @@ api = Api(app=app)
 
 api.add_resource(Index, '/')
 api.add_resource(ByIDUser, '/<string:id>')
+api.add_resource(voting, '/<string:id>/<string:voting_time>')
 
 #main function
 if __name__ == "__main__":
