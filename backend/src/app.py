@@ -1,9 +1,11 @@
 from flask import Flask
 from flask_restful import Resource, Api
 from view import Index, ByIDUser, voting
+from flask_cors import CORS
 #app config
 app = Flask(__name__)
-
+#CORS config
+CORS(app)
 #api config
 api = Api(app=app)
 

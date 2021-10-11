@@ -50,7 +50,6 @@ class DB:
             data['id'] = user['_id']
             self.bb.addBlocke(data)
             with open('entry.json', 'w', encoding='utf-8') as i:
-
                 i.write(json.dumps(self.bb.chain))
             return {'massage': 'ok'}
         else:
