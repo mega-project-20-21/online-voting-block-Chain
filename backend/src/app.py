@@ -2,6 +2,7 @@ from flask import Flask
 from flask_restful import Resource, Api
 from view import Index, ByIDUser, voting
 from flask_cors import CORS
+#hi
 #app config
 app = Flask(__name__)
 #CORS config
