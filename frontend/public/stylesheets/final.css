@@ -8,13 +8,6 @@ h2 {
   text-align: center;
 }
 
-.container {
-  text-align: center;
-  display: grid;
-  /*
-  grid-template-columns: 300px 300px;; */
-  grid-template-rows: 100px;
-}
 #purple {
   color: #5f59f7;
 }
