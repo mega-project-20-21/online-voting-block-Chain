@@ -1,40 +1,33 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 h2 {
   text-align: center;
 }
 header {
-    color: aliceblue;
-    background-color: #5F59F7;
+  color: aliceblue;
+  background-color: #5f59f7;
 }
 
-.MAIN{
-    text-align: center;
-    margin: 150px;
+.MAIN {
+  text-align: center;
+  margin: 150px;
 }
 
 #a1446b94-79a8-45dc-beee-b314ae1acdc1 {
-            height: 150px;
-            width: 150px;
-            position: relative;
-            animation-name: swip;
-            animation-duration: 2s;
-            animation-delay: 0s;
-        }
+  height: 150px;
+  width: 150px;
+  position: relative;
+  animation-name: swip;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
 
-        @keyframes swip {
-            50% {
-                left: 200px;
-                top: 0px;
-            }
+@keyframes swip {
+  50% {
+    left: 200px;
+    top: 0px;
+  }
 
-            100% {
-
-                left: 0px;
-                top: 0px;
-            }
-        }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}

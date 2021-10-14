@@ -1,0 +1,47 @@
+.MAIN {
+  padding-top: 20px;
+  flex-flow: column;
+  justify-content: center;
+}
+
+header {
+  color: aliceblue;
+  background-color: var(--color);
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+
+.purple {
+  color: var(--color);
+}
+
+.container {
+  text-align: center;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 300px 300px 300px;
+  justify-content: center;
+}
+svg {
+  border: 2px solid var(--color);
+  width: auto;
+  height: 100%;
+}
+.contant {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  text-align: center;
+  -webkit-user-select: none;
+  moz-user-select: none;
+}
