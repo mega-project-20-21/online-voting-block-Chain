@@ -1,19 +1,37 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
 
 <head>
-  <title>Online Voting</title>
-  <link rel="stylesheet" href="stylesheets/style.css" />
-  <link rel="stylesheet" href="stylesheets/globel.css">
+  <meta charset="utf-8">
+  <title>right-to-vote</title>
+  <link rel="stylesheet" href="./stylesheets/page1.css" />
+  <link rel="stylesheet" href="./stylesheets/globel.css">
+
 </head>
-<!-- hi i'm parag the developer  -->
 
 <body>
-  <header>
-    <h1>online Voting</h1>
-  </header>
-  <main>
-    <p>Welcome to Express</p>
-  </main>
+  <div class="center">
+    <h1>Right-to-vote</h1>
+    <form method="post">
+      <div class="txt_field">
+        <input type="text" required>
+        <span></span>
+        <label>Username</label>
+      </div>
+      <div class="txt_field">
+        <input type="password" required>
+        <span></span>
+        <label>Password</label>
+      </div>
+      <div class="pass">Forgot Password?</div>
+      <input type="submit" value="Login">
+      <div class="signup_link">
+        Not a member? <a href="#">Signup</a>
+      </div>
+    </form>
+  </div>
+
 </body>
 
 </html>
