@@ -1,5 +1,4 @@
 import json
-#https://prod.liveshare.vsengsaas.visualstudio.com/join?D52B7A29FCDFC013009737CAA25BD6603FB9
 from os import write
 import time
 import hashlib as h
@@ -50,6 +49,6 @@ class BlockChain:
 # cc.addBlocke({"ok": "ok"})
 # cc.addBlocke({"ok": "ok"})
 # print(cc.chain)
-# with open(r'D:\collage-project\backend\src\block-chain\chine.json', "w") as i:
+# with open(r'D:\collage-project\backend\src\entry.json', "w") as i:
 #     i.write(json.dumps(cc.chain))
 #     i.close()
