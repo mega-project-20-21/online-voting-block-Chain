@@ -4,25 +4,12 @@
   justify-content: center;
 }
 
-header {
-  color: aliceblue;
-  background-color: var(--color);
-  width: 100%;
-}
-h2 {
-  text-align: center;
-}
-
-.purple {
-  color: var(--color);
-}
-
 .container {
   text-align: center;
   margin: 50px;
   display: grid;
   /* grid-gap: 51px; */
-  grid-template-columns: 600px 300px 300px ;
+  grid-template-columns: 600px 300px 300px;
   grid-template-rows: 400px 400px 400px;
   align-content: center;
   justify-content: center;
@@ -33,30 +20,28 @@ img {
   width: auto;
   height: 100%;
 }
-.item1{
+.item1 {
   grid-column-start: 1;
   grid-column-end: 2;
 }
-.item2{
+.item2 {
   grid-column-end: 4;
-
 }
-.item3{
-  
+.item3 {
   grid-row-start: 2;
   grid-column-end: 2;
 }
-.item4{
+.item4 {
   grid-column-end: 4;
   grid-column-start: 2;
 }
-.item5{
+.item5 {
   grid-row-end: 4;
   grid-column-start: 1;
 }
-.item6{
-grid-row-start: 3;
-grid-column-end: 4;
+.item6 {
+  grid-row-start: 3;
+  grid-column-end: 4;
 }
 .contant {
   width: 50%;
@@ -70,6 +55,7 @@ grid-column-end: 4;
   align-items: center;
   pointer-events: none;
   text-align: center;
+  /* this property is used for unselecting a text */
   -webkit-user-select: none;
   moz-user-select: none;
 }

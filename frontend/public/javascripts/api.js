@@ -1,16 +1,18 @@
-const urls = 'http://localhost:8000/'
-function login(data){
-    return fetch({
-        url:urls,
-        method:'POST',
-        body:data,
-    }).then((r)=>r.json())
-}
-function voting (data){
-    
-    return fetch({
-        url:urls,
-        method:'POST',
-        body:data,
-    }).then((r)=>r.json())
-}
+const urls = "http://localhost:8000/";
+$("#from").on("submit", function (e) {
+  e.preventDefault();
+  const email = $("#email")[0].value;
+  const password = $("#password")[0].value;
+  $.ajax({
+    type: "Post",
+    url: urls,
+    data: { email, password },
+    dataType: "JSON",
+    success: function (response) {
+      console.log(response);
+    },
+    error: (r) => {
+      console.log(r);
+    },
+  });
+});

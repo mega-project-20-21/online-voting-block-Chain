@@ -1,10 +1,35 @@
+/* YO */
+@import url("./responsive.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  /* this property is used for unselecting a text */
+  moz-user-select: none;
+  -webkit-user-select: none;
 }
+/* body {
+  width: 100%;
+  height: 100vh;
+} */
 :root {
   --color: #5f59f7;
+}
+.purple {
+  color: var(--color);
+}
+header {
+  color: aliceblue;
+  background-color: var(--color);
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+.flex-container {
+  border: none;
+  height: 45vh;
+  display: flex;
 }
