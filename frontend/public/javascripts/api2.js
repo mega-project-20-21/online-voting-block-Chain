@@ -11,6 +11,6 @@ document.querySelector("#from2").addEventListener("submit", (e) => {
       window.location.href = "/howtovote";
     })
     .catch((e) => {
-      alert("try angen");
+      alert("try again");
     });
 });

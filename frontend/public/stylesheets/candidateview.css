@@ -57,3 +57,7 @@
   cursor: pointer;
   color: #fff;
 }
+button:disabled {
+  background-color: #c2c0ff !important;
+  cursor: not-allowed !important;
+}

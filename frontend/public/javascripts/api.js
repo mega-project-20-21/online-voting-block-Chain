@@ -8,9 +8,10 @@ document.querySelector("#from").addEventListener("submit", (e) => {
       password: document.getElementById("password").value,
     })
     .then((e) => {
-      window.localStorage.setItem("userinfo", e.data);
+      window.localStorage.setItem("userinfo", JSON.stringify(e.data));
+      window.location.href = "/candidateview";
     })
     .catch((e) => {
-      alert("try angen");
+      alert("try again");
     });
 });

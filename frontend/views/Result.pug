@@ -1,0 +1,26 @@
+//- this file code by Yash & Parag
+//- html to pug convert by Yash & Parag
+//- Result page
+
+extends layout.pug
+block style
+    link(rel="stylesheet", href="stylesheets/Result.css")
+block page
+    table 
+        tbody 
+            tr
+                th Sr No.
+                th Name 
+                th img
+                th Result
+            - for(var x=0;x<cndide1.length;x++)
+                tr 
+                    td=x+1
+                    td=cndide1[x].title
+                    td
+                        img(src=cndide1[x].imgsrc, alt=x, srcset=cndide1[x].imgsrc)
+                    td(id=cndide1[x].title) 0
+block script 
+    script(src="gun.js")        
+    script(src="https://cdn.jsdelivr.net/npm/object-hash@2.2.0") 
+    script(src="javascripts/result.js")

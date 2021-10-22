@@ -39,3 +39,12 @@ svg {
     top: 0px;
   }
 }
+button {
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  height: 23px;
+  width: 171px;
+}
