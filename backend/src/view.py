@@ -11,7 +11,7 @@ class Index(Resource):
 
     def post(self):
         data = request.get_json()
-
+        print(data)
         return db.add(data)
 
 

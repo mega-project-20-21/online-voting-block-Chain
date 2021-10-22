@@ -1,0 +1,23 @@
+//- this file code by parag
+//- html to pug convert by parag
+//- HOME page
+extends layout.pug
+block style 
+    link(rel="stylesheet", href="stylesheets/index.css")
+block page
+    .center 
+        div 
+            h1 Right-to-vote 
+            form#from2
+                .txt_field 
+                    input#email(type="text" required )
+                    span 
+                    label(for="email") Enter id 
+                .txt_field 
+                    input#password(type="password" required)
+                    span 
+                    label(for="password") password
+                input(type="submit" value="Sigup")
+block script
+    script(src="javascripts/api2.js") 
+    

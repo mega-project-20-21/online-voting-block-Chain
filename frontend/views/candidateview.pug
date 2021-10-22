@@ -1,0 +1,27 @@
+//- this file code by Anurudh & Tejas
+//- html to pug convert by Yash & Parag
+//- candidateview page
+
+extends layout.pug
+block style
+    link(rel="stylesheet", href="stylesheets/candidateview.css")
+    //- link(rel="stylesheet", href="stylesheets/style.css")
+block page
+    main
+        h2.purple
+            | Candidate View
+        .flex-container
+            - var kk = cndide1.length
+            //- p= kk
+            - for (var x = 0; x < kk; x++)
+                    .fitem
+                        div 
+                            img(src=cndide1[x].imgsrc, alt=cndide1[x].imgsrc, srcset=cndide1[x].imgsrc)
+                        div 
+                            
+                            h4=cndide1[x].title
+                            button.bg-purple(onclick=`ok(${JSON.stringify(cndide1[x])})`) Vote
+
+block script 
+    script(src="javascripts/chick.js")         
+            
