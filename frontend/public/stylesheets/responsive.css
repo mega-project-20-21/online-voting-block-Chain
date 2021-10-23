@@ -4,6 +4,17 @@
 }
 
 @media only screen and (max-width: 1199px) {
+  .container {
+    display: flex !important;
+    flex-flow: column;
+    align-items: center;
+  }
+  img {
+    width: 100% !important;
+  }
+  .info {
+    margin: 20px 0;
+  }
 }
 
 @media only screen and (max-width: 1024px) {

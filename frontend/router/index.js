@@ -11,12 +11,19 @@ route.post("/", (req, res) => {
   const { userid, password } = req.body;
   User.findOne({ userid }, (e, r) => {
     if (e) throw e;
+    console.log(e, r);
+    if (!r || r === null) {
+      return res.status(404).json({ message: "user not found" });
+    }
     if (r) {
       if (bcrypt.compareSync(password, r.password)) {
-        res.status(500);
+        return res.status(200).json(r);
+      } else {
+        return res.status(500);
       }
+    } else {
+      return res.status(500);
     }
-    res.status(200).json(r);
   });
 });
 route.get("/signup", (req, res) => {

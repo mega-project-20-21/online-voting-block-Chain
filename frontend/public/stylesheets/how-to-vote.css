@@ -61,3 +61,12 @@ img {
   -webkit-user-select: none;
   moz-user-select: none;
 }
+button {
+  width: 80%;
+  background-color: var(--color);
+  border: none;
+  outline: none;
+  margin: 0 10%;
+  height: 20px;
+  color: #fff;
+}

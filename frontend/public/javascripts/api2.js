@@ -7,6 +7,7 @@ document.querySelector("#from2").addEventListener("submit", (e) => {
       password: document.getElementById("password").value,
     })
     .then((e) => {
+      console.log(e);
       window.localStorage.setItem("userinfo", JSON.stringify(e.data));
       window.location.href = "/howtovote";
     })
