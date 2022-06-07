@@ -13,13 +13,57 @@ Creating an environment to full-fill the basic requirement of E-Voting is indeed
 
 # Contribution
 
-[PARAG KOOCHE](https://github.com/Paragkoche)
-
-[YASH GAJBHIYE](https://github.com/ARYANEON)
-
-[TEJAS KINGE](https://github.com/tejaskinge29)
-
-[ANURUDH NIMBURKAR](https://github.com/anurudh121)
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table style="width:100%;">
+<tr>
+ <td align="center">
+ <a href="https://github.com/Paragkoche">
+ <img src="https://avatars.githubusercontent.com/u/60149545?v=4" width="100px;" style="border-radius:50%;" alt=""/>
+ <br />
+ <sub>
+ <b>Parag Koche</b>
+ </sub>
+ </a>
+ <br />
+ <sub>Paragkoche</sub></td>
+ </td>
+ <td align="center">
+ <a href="https://github.com/ARYANEON">
+ <img src="https://avatars.githubusercontent.com/u/77782972?v=4" width="100px;" style="border-radius:50%;" alt=""/>
+ <br />
+ <sub>
+ <b>Yash Gajbhiye</b>
+ </sub>
+ </a>
+ <br />
+ <sub>ARYANEON</sub></td>
+ </td>
+</tr>
+ <td align="center">
+ <a href="https://github.com/tejaskinge29">
+ <img src="https://avatars.githubusercontent.com/u/91839422?v=4" width="100px;" style="border-radius:50%;" alt=""/>
+ <br />
+ <sub>
+ <b>Tejas Kinge</b>
+ </sub>
+ </a>
+ <br />
+ <sub>tejaskinge29</sub></td>
+ </td>
+ <td align="center">
+ <a href="https://github.com/anurudh121">
+ <img src="https://avatars.githubusercontent.com/u/77782972?v=4" width="100px;" style="border-radius:50%;" alt=""/>
+ <br />
+ <sub>
+ <b>Anurudh Nimburkar</b>
+ </sub>
+ </a>
+ <br />
+ <sub>anurudh121</sub></td>
+ </td>
+</tr>
+</table>
 
 # SET-UP
 
