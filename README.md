@@ -62,6 +62,19 @@ Creating an environment to full-fill the basic requirement of E-Voting is indeed
  <br />
  <sub>anurudh121</sub></td>
  </td>
+ <td align="center">
+ <a href="https://github.com/asmit416">
+ <img src="https://avatars.githubusercontent.com/u/70513043?v=4" width="100px;" style="border-radius:50%;" alt=""/>
+ <br />
+ <sub>
+ <b>
+Asmit</b>
+ </sub>
+ </a>
+ <br />
+ <sub>
+asmit416</sub></td>
+ </td>
 </tr>
 </table>
 
