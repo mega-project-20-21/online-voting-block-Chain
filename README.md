@@ -53,7 +53,7 @@ Creating an environment to full-fill the basic requirement of E-Voting is indeed
  </td>
  <td align="center">
  <a href="https://github.com/anurudh121">
- <img src="https://avatars.githubusercontent.com/u/77782972?v=4" width="100px;" style="border-radius:50%;" alt=""/>
+ <img src="https://avatars.githubusercontent.com/u/91779551?v=4" width="100px;" style="border-radius:50%;" alt=""/>
  <br />
  <sub>
  <b>Anurudh Nimburkar</b>
